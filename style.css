@@ -581,6 +581,41 @@
   }
 }
 
+/*Contact Info Styling (Landscape)*/
+@media only screen and (orientation: landscape) and (max-width: 1024px) {
+  #contactMe {
+    font-family: "Vast Shadow", cursive;
+    color: var(--light-green);
+    height: 65vh;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  #contactMe h1 {
+    font-size: 3vw;
+    width: 50vw;
+    margin: 0;
+  }
+
+  #contactMe p {
+    width: 50vw;
+    font-size: 3vh;
+    margin: 0;
+  }
+
+  #contactMe a {
+    width: 15vw;
+    filter: invert(100%);
+  }
+}
+
 /*Experiences Page Styling*/
 #experiences {
   display: flex;
@@ -694,7 +729,7 @@
     height: auto;
     width: 100vw;
     background-image: url(images/mainBackground.svg);
-    background-size: 150%;
+    background-size: 250vh;
     background-repeat: no-repeat;
   }
 
