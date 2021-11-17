@@ -212,7 +212,7 @@
     background-image: url(images/aboutMeBackground.svg);
     background-size: cover;
     font-size: 1.6vw;
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Vast Shadow", cursive;
     color: var(--gray-background);
     transition: color 0.5s;
     box-sizing: border-box;
@@ -297,7 +297,7 @@
     background-image: url(images/aboutMeBackground.svg);
     background-size: cover;
     font-size: 3vw;
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Vast Shadow", cursive;
     color: var(--light-green);
     transition: color 0.5s;
     box-sizing: border-box;
@@ -370,7 +370,7 @@
     background-image: url(images/aboutMeBackground.svg);
     background-size: cover;
     font-size: 2vw;
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Vast Shadow", cursive;
     color: var(--light-green);
     transition: color 0.5s;
     box-sizing: border-box;
@@ -472,6 +472,7 @@
 
   footer a {
     text-decoration: underline;
+    color: var(--orange);
   }
 }
 
@@ -498,19 +499,15 @@
   }
 
   footer a {
-    color: var(--light-green);
+    color: var(--orange);
     text-decoration: underline;
-  }
-
-  footer a:hover {
-    font-size: 2vh;
   }
 }
 
 /*Contact Info Styling (Desktop)*/
 @media only screen and (orientation: landscape) and (min-width: 1025px) {
   #contactMe {
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Vast Shadow", cursive;
     color: var(--light-green);
     height: 65vh;
     width: auto;
@@ -584,7 +581,7 @@
   align-items: center;
   justify-content: center;
   color: var(--light-green);
-  font-family: 'Vast Shadow', cursive;
+  font-family: "Vast Shadow", cursive;
   background-color: var(--gray-background);
   border: 0.5vw solid var(--light-green);
   border-radius: 1vw;
@@ -608,11 +605,12 @@
 @media only screen and (min-width: 1025px) {
   html {
     height: 100%;
+    background-image: url(images/mainBackground.svg);
+    background-repeat: no-repeat;
+    background-size: 150%;
   }
 
   html body {
-    background-image: url(images/mainBackground.svg);
-    background-size: cover;
     margin: 0;
     padding: 0;
     position: relative;
@@ -636,11 +634,12 @@
   html {
     height: 100%;
     width: 100vw;
+    background-image: url(images/mainBackground.svg);
+    background-size: 150%;
+    background-repeat: no-repeat;
   }
 
   html body {
-    background-image: url(images/mainBackground.svg);
-    background-size: cover;
     margin: 0;
     padding: 0;
     position: relative;
@@ -658,11 +657,12 @@
   html {
     height: 100%;
     width: 100vw;
+    background-image: url(images/mainBackground.svg);
+    background-size: 150%;
+    background-repeat: no-repeat;
   }
 
   html body {
-    background-image: url(images/mainBackground.svg);
-    background-size: cover;
     margin: 0;
     padding: 0;
     position: relative;
