@@ -212,7 +212,7 @@
     background-image: url(images/aboutMeBackground.svg);
     background-size: cover;
     font-size: 1.6vw;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--gray-background);
     transition: color 0.5s;
     box-sizing: border-box;
@@ -297,7 +297,7 @@
     background-image: url(images/aboutMeBackground.svg);
     background-size: cover;
     font-size: 3vw;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--light-green);
     transition: color 0.5s;
     box-sizing: border-box;
@@ -370,7 +370,7 @@
     background-image: url(images/aboutMeBackground.svg);
     background-size: cover;
     font-size: 2vw;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--light-green);
     transition: color 0.5s;
     box-sizing: border-box;
@@ -507,7 +507,7 @@
 /*Contact Info Styling (Desktop)*/
 @media only screen and (orientation: landscape) and (min-width: 1025px) {
   #contactMe {
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--light-green);
     height: 65vh;
     width: auto;
@@ -548,7 +548,7 @@
 /*Contact Info Styling (Portrait)*/
 @media only screen and (max-width: 1024px) and (orientation: portrait) {
   #contactMe {
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--light-green);
     height: auto;
     width: auto;
@@ -584,7 +584,7 @@
 /*Contact Info Styling (Landscape)*/
 @media only screen and (orientation: landscape) and (max-width: 1024px) {
   #contactMe {
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--light-green);
     height: 65vh;
     width: auto;
@@ -616,19 +616,64 @@
   }
 }
 
-/*Experiences Page Styling*/
-#experiences {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+/*Experiences Page Styling (Desktop)*/
+@media only screen and (min-width: 1025px) {
+  #experiences {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+    box-sizing: border-box;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
 
-#experiences h1 {
-  width: 50vw;
-}
+  #experiences h1 {
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 4vw;
+    font-family: 'Vast Shadow', cursive;
+    color: var(--orange);
+  }
 
-#experiences p {
-  width: 50vw;
+  #experiences p {
+    width: 50vw;
+  }
+
+  .arrow {
+    border-top: 3vw solid transparent;
+    border-bottom: 3vw solid transparent;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 50%;
+  }
+
+  #left {
+    border-right: 6vh solid gray;
+    left: 5vw;
+    transition: border-right 0.5s;
+  }
+
+  #right {
+    border-left: 6vh solid gray;
+    right: 5vw;
+    transition: border-left 0.5s;
+  }
+
+  #left:hover {
+    transition: border-right 0.5s;
+    border-right: 6vh solid white;
+  }
+
+  #right:hover {
+    transition: border-left 0.5s;
+    border-left: 6vh solid white;
+  }
 }
 
 /*Temporary Page Styling*/
@@ -650,7 +695,7 @@
   align-items: center;
   justify-content: center;
   color: var(--light-green);
-  font-family: "Vast Shadow", cursive;
+  font-family: 'Vast Shadow', cursive;
   background-color: var(--gray-background);
   border: 0.5vw solid var(--light-green);
   border-radius: 1vw;
