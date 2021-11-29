@@ -6,7 +6,10 @@ const titles = ["Programming Knowledge","Education","Work Experience"];
 
 //Updates the information displayed on the page to match the current index
 let updateInfo = () => {
-    document.getElementById("infoHeading").textContent = titles[currentIndex];
+    let heading = document.getElementById("infoHeading");
+    heading.classList.toggle("fadeIn");
+    setTimeout(() => {heading.textContent = titles[currentIndex];}, 500);
+    setTimeout(() => {heading.classList.toggle("fadeIn");}, 500);
 }
 
 updateInfo();

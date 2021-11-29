@@ -212,7 +212,7 @@
     background-image: url(images/aboutMeBackground.svg);
     background-size: cover;
     font-size: 1.6vw;
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Vast Shadow", cursive;
     color: var(--gray-background);
     transition: color 0.5s;
     box-sizing: border-box;
@@ -297,7 +297,7 @@
     background-image: url(images/aboutMeBackground.svg);
     background-size: cover;
     font-size: 3vw;
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Vast Shadow", cursive;
     color: var(--light-green);
     transition: color 0.5s;
     box-sizing: border-box;
@@ -370,7 +370,7 @@
     background-image: url(images/aboutMeBackground.svg);
     background-size: cover;
     font-size: 2vw;
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Vast Shadow", cursive;
     color: var(--light-green);
     transition: color 0.5s;
     box-sizing: border-box;
@@ -507,7 +507,7 @@
 /*Contact Info Styling (Desktop)*/
 @media only screen and (orientation: landscape) and (min-width: 1025px) {
   #contactMe {
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Vast Shadow", cursive;
     color: var(--light-green);
     height: 65vh;
     width: auto;
@@ -548,7 +548,7 @@
 /*Contact Info Styling (Portrait)*/
 @media only screen and (max-width: 1024px) and (orientation: portrait) {
   #contactMe {
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Vast Shadow", cursive;
     color: var(--light-green);
     height: auto;
     width: auto;
@@ -584,7 +584,7 @@
 /*Contact Info Styling (Landscape)*/
 @media only screen and (orientation: landscape) and (max-width: 1024px) {
   #contactMe {
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Vast Shadow", cursive;
     color: var(--light-green);
     height: 65vh;
     width: auto;
@@ -636,7 +636,7 @@
     margin-right: auto;
     text-align: center;
     font-size: 4vw;
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Vast Shadow", cursive;
     color: var(--orange);
   }
 
@@ -674,6 +674,22 @@
     transition: border-left 0.5s;
     border-left: 6vh solid white;
   }
+
+  #infoHeading {
+    height: 5vh;
+    width: 50vw;
+    font-size: 2vw;
+  }
+
+  .fadeOut {
+    transition: opacity 0.5s;
+    opacity: 0%;
+  }
+
+  .fadeIn {
+    transition: opacity 0.5s;
+    opacity: 100%;
+  }
 }
 
 /*Temporary Page Styling*/
@@ -695,7 +711,7 @@
   align-items: center;
   justify-content: center;
   color: var(--light-green);
-  font-family: 'Vast Shadow', cursive;
+  font-family: "Vast Shadow", cursive;
   background-color: var(--gray-background);
   border: 0.5vw solid var(--light-green);
   border-radius: 1vw;
