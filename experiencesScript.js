@@ -4,6 +4,8 @@ var currentIndex = 0;
 //Constant array that keeps track of the title of the information
 const titles = ["Programming Knowledge","Education","Work Experience"];
 
+//Constant array that keeps track of the
+
 //Updates the information displayed on the page to match the current index
 let updateInfo = () => {
     let heading = document.getElementById("infoHeading");

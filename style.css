@@ -623,25 +623,61 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 80vh;
-    width: 100vw;
+    min-height: 80vh;
+    width: 100%;
     box-sizing: border-box;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    background-image: url("images/experiences.svg");
+    background-size: 75%;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    font-family: "Vast Shadow", cursive;
+    color: var(--light-blue);
+    filter: contrast(130%);
+    padding-bottom: 50vh;
   }
 
   #experiences h1 {
     width: 50vw;
-    margin-left: auto;
+    margin-left: 15vw;
     margin-right: auto;
-    text-align: center;
     font-size: 4vw;
     font-family: "Vast Shadow", cursive;
     color: var(--orange);
+    padding: none;
   }
 
-  #experiences p {
+  .hiddenInfo {
+    display: none;
+  }
+
+  .revealedInfo {
+    display: block;
+  }
+
+  .info {
     width: 50vw;
+    min-height: 40vh;
+    font-size: 1.5vw;
+    background-color: #3f3f3f;
+    border-radius: 2vw;
+    padding: 1vw;
+    position: absolute;
+  }
+
+  .info span {
+    color: var(--orange);
+    font-size: 1.75vw;
+  }
+
+  .info .languages {
+    font-size: 1.5vw;
+    color: var(--light-blue);
+    transition: color 0.5s;
+  }
+
+  .info .languages:hover {
+    color: var(--light-green);
+    transition: color 0.5s;
   }
 
   .arrow {
@@ -677,8 +713,11 @@
 
   #infoHeading {
     height: 5vh;
-    width: 50vw;
-    font-size: 2vw;
+    width: 70vw;
+    font-size: 3vw;
+    margin-bottom: 5vh;
+    filter: contrast(200%);
+    margin-top: 0;
   }
 
   .fadeOut {
