@@ -680,6 +680,22 @@
     transition: color 0.5s;
   }
 
+  .info a {
+    color: var(--light-green);
+  }
+
+  /* #info1 {
+    z-index: 1;
+  }
+
+  #info2 {
+    z-index: auto;
+  }
+
+  #info3 {
+    z-index: auto;
+  } */
+
   .arrow {
     border-top: 3vw solid transparent;
     border-bottom: 3vw solid transparent;
