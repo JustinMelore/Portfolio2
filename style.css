@@ -684,17 +684,13 @@
     color: var(--light-green);
   }
 
-  /* #info1 {
+  #info1 {
     z-index: 1;
   }
 
   #info2 {
-    z-index: auto;
+    font-size: 2vw;
   }
-
-  #info3 {
-    z-index: auto;
-  } */
 
   .arrow {
     border-top: 3vw solid transparent;

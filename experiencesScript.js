@@ -14,6 +14,7 @@ const infoList = ["info1","info2","info3"];
 //Updates the information displayed on the page to match the current index
 let updateInfo = () => {
     document.getElementById(infoList[currentIndex]).classList.toggle("fadeIn");
+    document.getElementById(infoList[currentIndex]).style.zIndex= "1";
     let heading = document.getElementById("infoHeading");
     heading.classList.toggle("fadeIn");
     setTimeout(() => {heading.textContent = titles[currentIndex];}, 500);
@@ -25,6 +26,7 @@ let updateInfo = () => {
 //Lets the user click the arrows on either side of the page to see what information is being presented
 let changeIndex = (increment) => {
     document.getElementById(infoList[currentIndex]).classList.toggle("fadeIn");
+    document.getElementById(infoList[currentIndex]).style.zIndex= "auto";
     switch(currentIndex+increment) {
         case 3:
             currentIndex=0;
