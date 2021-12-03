@@ -7,11 +7,27 @@ const titles = ["Programming Knowledge","Education","Work Experience"];
 //Constant array that keeps track of the information displayed for each section of experience
 const infoList = ["info1","info2","info3"];
 
-
 //Makes sure that info2 and info3 are invisible when you first load the page
 document.getElementById("info2").classList.toggle("fadeIn");
 document.getElementById("info3").classList.toggle("fadeIn");
-document.getElementById("experiences").style.paddingBottom = document.getElementById(infoList[currentIndex]).offsetHeight+"px";
+
+
+//Changes the padding of the experiences section to automatically adjust to the size of the info div
+let changePadding = () => {
+    let experiences = document.getElementById("experiences");
+    let currentInfo = document.getElementById(infoList[currentIndex]);
+    // console.log(`Experiences Padding: ${window.getComputedStyle(experiences).getPropertyValue("padding-bottom").replace("px","")}
+    // Current Info Size: ${currentInfo.offsetHeight}`);
+    // console.log(window.getComputedStyle(experiences).getPropertyValue("padding-bottom").replace("px","") < currentInfo.offsetHeight+"px");
+    if(window.getComputedStyle(experiences).getPropertyValue("padding-bottom").replace("px","") < currentInfo.offsetHeight+"px") {
+        experiences.style.paddingBottom = (currentInfo.offsetHeight+20)+"px";
+    }else{
+        experiences.style.paddingBottom = "50vh";
+    }
+}
+
+//Makes sure the padding for the page is adjust to the size of the info div
+changePadding();
 
 //Updates the information displayed on the page to match the current index
 let updateInfo = () => {
@@ -21,7 +37,7 @@ let updateInfo = () => {
     heading.classList.toggle("fadeIn");
     setTimeout(() => {heading.textContent = titles[currentIndex];}, 500);
     setTimeout(() => {heading.classList.toggle("fadeIn");}, 500);
-    document.getElementById("experiences").style.paddingBottom = document.getElementById(infoList[currentIndex]).offsetHeight+"px";
+    changePadding();
 }
 
 
