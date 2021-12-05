@@ -220,7 +220,7 @@
     background-image: url(images/aboutMeBackground.svg);
     background-size: cover;
     font-size: 1.6vw;
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Vast Shadow", cursive;
     color: var(--gray-background);
     transition: color 0.5s;
     box-sizing: border-box;
@@ -305,7 +305,7 @@
     background-image: url(images/aboutMeBackground.svg);
     background-size: cover;
     font-size: 3vw;
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Vast Shadow", cursive;
     color: var(--light-green);
     transition: color 0.5s;
     box-sizing: border-box;
@@ -370,7 +370,7 @@
     flex-direction: column;
     position: relative;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     min-height: 75%;
     max-height: auto;
     margin-left: 0;
@@ -378,7 +378,7 @@
     background-image: url(images/aboutMeBackground.svg);
     background-size: cover;
     font-size: 2vw;
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Vast Shadow", cursive;
     color: var(--light-green);
     transition: color 0.5s;
     box-sizing: border-box;
@@ -515,7 +515,7 @@
 /*Contact Info Styling (Desktop)*/
 @media only screen and (orientation: landscape) and (min-width: 1025px) {
   #contactMe {
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Vast Shadow", cursive;
     color: var(--light-green);
     height: 65vh;
     width: auto;
@@ -556,7 +556,7 @@
 /*Contact Info Styling (Portrait)*/
 @media only screen and (max-width: 1024px) and (orientation: portrait) {
   #contactMe {
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Vast Shadow", cursive;
     color: var(--light-green);
     height: auto;
     width: auto;
@@ -592,7 +592,7 @@
 /*Contact Info Styling (Landscape)*/
 @media only screen and (orientation: landscape) and (max-width: 1024px) {
   #contactMe {
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Vast Shadow", cursive;
     color: var(--light-green);
     height: 65vh;
     width: auto;
@@ -634,11 +634,11 @@
     min-height: 80vh;
     width: 100%;
     box-sizing: border-box;
-    background-image: url('images/experiences.svg');
+    background-image: url("images/experiences.svg");
     background-size: 75%;
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Vast Shadow", cursive;
     color: var(--light-blue);
     filter: contrast(130%);
     padding-bottom: 50vh;
@@ -649,7 +649,7 @@
     margin-left: 15vw;
     margin-right: auto;
     font-size: 4vw;
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Vast Shadow", cursive;
     color: var(--orange);
     padding: none;
   }
@@ -762,11 +762,11 @@
     height: auto;
     width: 100%;
     box-sizing: border-box;
-    background-image: url('images/experiences.svg');
+    background-image: url("images/experiences.svg");
     background-size: 75%;
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Vast Shadow", cursive;
     color: var(--light-blue);
     filter: contrast(130%);
     padding-bottom: 50vh;
@@ -777,7 +777,7 @@
     margin-left: auto;
     margin-right: auto;
     font-size: 4vh;
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Vast Shadow", cursive;
     color: var(--orange);
     padding: none;
     text-align: center;
@@ -886,11 +886,11 @@
     min-height: 80vh;
     width: 100%;
     box-sizing: border-box;
-    background-image: url('images/experiences.svg');
+    background-image: url("images/experiences.svg");
     background-size: 75%;
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Vast Shadow", cursive;
     color: var(--light-blue);
     filter: contrast(130%);
     padding-bottom: 50vh;
@@ -901,7 +901,7 @@
     margin-left: auto;
     margin-right: auto;
     font-size: 4vw;
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Vast Shadow", cursive;
     color: var(--orange);
     padding: none;
     text-align: center;
@@ -1009,7 +1009,7 @@
   align-items: center;
   justify-content: center;
   color: var(--light-green);
-  font-family: 'Vast Shadow', cursive;
+  font-family: "Vast Shadow", cursive;
   background-color: var(--gray-background);
   border: 0.5vw solid var(--light-green);
   border-radius: 1vw;
@@ -1060,7 +1060,7 @@
 @media only screen and (max-width: 1024px) and (orientation: portrait) {
   html {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-image: url(images/mainBackground.svg);
     background-size: 250vh;
     background-repeat: no-repeat;
@@ -1084,7 +1084,7 @@
   html {
     min-height: 100vh;
     height: auto;
-    width: 100vw;
+    width: 100%;
     background-image: url(images/mainBackground.svg);
     background-size: 250vh;
     background-repeat: no-repeat;
