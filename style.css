@@ -96,8 +96,8 @@
 
   nav {
     box-sizing: border-box;
-    width: 60vw;
-    height: 10vh;
+    width: 67vw;
+    height: 8vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -116,6 +116,7 @@
   nav a {
     margin-top: 0%;
     color: var(--light-green);
+    font-size: 2vw;
   }
 
   #navbar div {
@@ -126,7 +127,7 @@
   }
 
   #seperator {
-    height: 9vh;
+    height: 7vh;
     width: 0.25vw;
     position: absolute;
     background-color: var(--light-green);
