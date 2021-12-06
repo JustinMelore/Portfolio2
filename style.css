@@ -221,7 +221,7 @@
     background-image: url(images/aboutMeBackground.svg);
     background-size: cover;
     font-size: 1.6vw;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--gray-background);
     transition: color 0.5s;
     box-sizing: border-box;
@@ -306,7 +306,7 @@
     background-image: url(images/aboutMeBackground.svg);
     background-size: cover;
     font-size: 3vw;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--light-green);
     transition: color 0.5s;
     box-sizing: border-box;
@@ -379,7 +379,7 @@
     background-image: url(images/aboutMeBackground.svg);
     background-size: cover;
     font-size: 2vw;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--light-green);
     transition: color 0.5s;
     box-sizing: border-box;
@@ -516,7 +516,7 @@
 /*Contact Info Styling (Desktop)*/
 @media only screen and (orientation: landscape) and (min-width: 1025px) {
   #contactMe {
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--light-green);
     height: 65vh;
     width: auto;
@@ -557,7 +557,7 @@
 /*Contact Info Styling (Portrait)*/
 @media only screen and (max-width: 1024px) and (orientation: portrait) {
   #contactMe {
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--light-green);
     height: auto;
     width: auto;
@@ -593,7 +593,7 @@
 /*Contact Info Styling (Landscape)*/
 @media only screen and (orientation: landscape) and (max-width: 1024px) {
   #contactMe {
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--light-green);
     height: 65vh;
     width: auto;
@@ -635,11 +635,11 @@
     min-height: 80vh;
     width: 100%;
     box-sizing: border-box;
-    background-image: url("images/experiences.svg");
+    background-image: url('images/experiences.svg');
     background-size: 75%;
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--light-blue);
     filter: contrast(130%);
     padding-bottom: 50vh;
@@ -650,7 +650,7 @@
     margin-left: 15vw;
     margin-right: auto;
     font-size: 4vw;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--orange);
     padding: none;
   }
@@ -763,11 +763,11 @@
     height: auto;
     width: 100%;
     box-sizing: border-box;
-    background-image: url("images/experiences.svg");
+    background-image: url('images/experiences.svg');
     background-size: 75%;
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--light-blue);
     filter: contrast(130%);
     padding-bottom: 50vh;
@@ -778,7 +778,7 @@
     margin-left: auto;
     margin-right: auto;
     font-size: 4vh;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--orange);
     padding: none;
     text-align: center;
@@ -887,11 +887,11 @@
     min-height: 80vh;
     width: 100%;
     box-sizing: border-box;
-    background-image: url("images/experiences.svg");
+    background-image: url('images/experiences.svg');
     background-size: 75%;
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--light-blue);
     filter: contrast(130%);
     padding-bottom: 50vh;
@@ -902,7 +902,7 @@
     margin-left: auto;
     margin-right: auto;
     font-size: 4vw;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--orange);
     padding: none;
     text-align: center;
@@ -992,106 +992,108 @@
 }
 
 /*Projects Page Styling (Desktop)*/
-#myProjects {
-  font-size: 1.5vw;
-  box-sizing: border-box;
-  padding-left: 5vw;
-  padding-right: 5vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: "Vast Shadow", cursive;
-}
+@media only screen and (min-width: 1025px) {
+  #myProjects {
+    font-size: 1.5vw;
+    box-sizing: border-box;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Vast Shadow', cursive;
+  }
 
-#myProjects > h1 {
-  font-size: 3vw;
-  color: var(--orange);
-  margin-bottom: 2vh;
-}
+  #myProjects > h1 {
+    font-size: 3vw;
+    color: var(--orange);
+    margin-bottom: 2vh;
+  }
 
-#myProjects p {
-  color: var(--light-green);
-  margin-bottom: 2vh;
-}
+  #myProjects p {
+    color: var(--light-green);
+    margin-bottom: 2vh;
+  }
 
-#myProjects p a img {
-  filter: invert(100%);
-  width: 1.5vw;
-  margin-left: 10px;
-  margin-right: 10px;
-  transition: width 0.5s;
-}
+  #myProjects p a img {
+    filter: invert(100%);
+    width: 1.5vw;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: width 0.5s;
+  }
 
-#myProjects > a:hover > img {
-  width: 2vw;
-  transition: width 0.5s;
-}
+  #myProjects > a:hover > img {
+    width: 2vw;
+    transition: width 0.5s;
+  }
 
-#projectsList {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: auto;
-  row-gap: 1vh;
-  column-gap: 2vw;
-  align-items: center;
-  justify-items: center;
-  margin-bottom: 5vh;
-}
+  #projectsList {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: auto;
+    row-gap: 1vh;
+    column-gap: 2vw;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 5vh;
+  }
 
-#projectsList > h1 {
-  background-color: var(--gray-background);
-  color: var(--orange);
-  height: 10vh;
-  width: 90%;
-  box-sizing: border-box;
-  border-radius: 5vw;
-  grid-column: 1/4;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 3vw;
-}
+  #projectsList > h1 {
+    background-color: var(--gray-background);
+    color: var(--orange);
+    height: 10vh;
+    width: 90%;
+    box-sizing: border-box;
+    border-radius: 5vw;
+    grid-column: 1/4;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3vw;
+  }
 
-#projectsList > div {
-  width: 100%;
-  min-height: 40vh;
-  background-color: var(--gray-background);
-  border-radius: 3vw;
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  flex-direction: column;
-  box-sizing: border-box;
-  padding-left: 1vw;
-  padding-right: 1vw;
-}
+  #projectsList > div {
+    width: 100%;
+    min-height: 40vh;
+    background-color: var(--gray-background);
+    border-radius: 3vw;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
 
-#projectsList div a {
-  width: 80%;
-  filter: grayscale(100%);
-  transition: filter 0.5s;
-  margin-top: 1vh;
-}
+  #projectsList div a {
+    width: 80%;
+    filter: grayscale(100%);
+    transition: filter 0.5s;
+    margin-top: 1vh;
+  }
 
-#projectsList div a:hover {
-  filter: grayscale(0%);
-  transition: filter 0.5s;
-  font-size: 100%;
-}
+  #projectsList div a:hover {
+    filter: grayscale(0%);
+    transition: filter 0.5s;
+    font-size: 100%;
+  }
 
-#projectsList > div > a > img {
-  width: 100%;
-  box-sizing: border-box;
-  border: 0.5vw solid #2f2f2f;
-  border-radius: 2vw;
-}
+  #projectsList > div > a > img {
+    width: 100%;
+    box-sizing: border-box;
+    border: 0.5vw solid #2f2f2f;
+    border-radius: 2vw;
+  }
 
-#projectsList div p {
-  font-size: 0.75vw;
-  margin-top: 1vh;
+  #projectsList div p {
+    font-size: 0.75vw;
+    margin-top: 1vh;
+  }
 }
 
 /*Projects Page Styling (Portrait)*/
@@ -1117,7 +1119,7 @@
   align-items: center;
   justify-content: center;
   color: var(--light-green);
-  font-family: "Vast Shadow", cursive;
+  font-family: 'Vast Shadow', cursive;
   background-color: var(--gray-background);
   border: 0.5vw solid var(--light-green);
   border-radius: 1vw;
