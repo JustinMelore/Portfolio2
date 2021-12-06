@@ -992,6 +992,107 @@
 }
 
 /*Projects Page Styling (Desktop)*/
+#myProjects {
+  font-size: 1.5vw;
+  box-sizing: border-box;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Vast Shadow", cursive;
+}
+
+#myProjects > h1 {
+  font-size: 3vw;
+  color: var(--orange);
+  margin-bottom: 2vh;
+}
+
+#myProjects p {
+  color: var(--light-green);
+  margin-bottom: 2vh;
+}
+
+#myProjects p a img {
+  filter: invert(100%);
+  width: 1.5vw;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: width 0.5s;
+}
+
+#myProjects > a:hover > img {
+  width: 2vw;
+  transition: width 0.5s;
+}
+
+#projectsList {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: auto;
+  row-gap: 1vh;
+  column-gap: 2vw;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 5vh;
+}
+
+#projectsList > h1 {
+  background-color: var(--gray-background);
+  color: var(--orange);
+  height: 10vh;
+  width: 90%;
+  box-sizing: border-box;
+  border-radius: 5vw;
+  grid-column: 1/4;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 3vw;
+}
+
+#projectsList > div {
+  width: 100%;
+  min-height: 40vh;
+  background-color: var(--gray-background);
+  border-radius: 3vw;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+#projectsList div a {
+  width: 80%;
+  filter: grayscale(100%);
+  transition: filter 0.5s;
+  margin-top: 1vh;
+}
+
+#projectsList div a:hover {
+  filter: grayscale(0%);
+  transition: filter 0.5s;
+  font-size: 100%;
+}
+
+#projectsList > div > a > img {
+  width: 100%;
+  box-sizing: border-box;
+  border: 0.5vw solid #2f2f2f;
+  border-radius: 2vw;
+}
+
+#projectsList div p {
+  font-size: 0.75vw;
+  margin-top: 1vh;
+}
 
 /*Projects Page Styling (Portrait)*/
 
