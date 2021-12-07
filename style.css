@@ -1015,6 +1015,15 @@
     margin-bottom: 2vh;
   }
 
+  #myProjects a {
+    color: var(--light-green);
+    text-decoration: underline;
+  }
+
+  #myProjects a:hover {
+    color: var(--orange);
+  }
+
   #myProjects p a img {
     filter: invert(100%);
     width: 1.5vw;
@@ -1191,7 +1200,7 @@
   }
 
   #projectsList div p {
-    font-size: 0.75vw;
+    font-size: 1.25vw;
     margin-top: 1vh;
   }
 }
@@ -1292,7 +1301,7 @@
     height: auto;
     width: 100%;
     background-image: url(images/mainBackground.svg);
-    background-size: 250vh;
+    background-size: 300vh;
     background-repeat: no-repeat;
   }
 
