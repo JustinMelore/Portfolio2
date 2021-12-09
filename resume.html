@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,13 +18,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
+    <!--ruleset to use for using the font: font-family:font-family: 'Monoton', cursive;-->
+    <!--ruleset to use the second font: font-family: 'Vast Shadow', cursive;-->
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/logo.png" size="32px">
     <title>Justin Melore</title>
 </head>
 
 <body>
-    
     <!--Section for the navbar-->
     <div id="navbar">
         <nav>
@@ -38,39 +40,19 @@
         <img src="images/logo.png" alt="logo">
     </div>
 
-    <!--Section for the My Experience portion-->
-    <section id="experiences">
-        
-        <div class="arrow" id="left" onmousedown="changeIndex(-1)"></div>
-        <h1>My Experience</h1>
-        <div id="infoSection">
-            <!--Deals with my programming knowledge-->
-            <h3 id="infoHeading" class="fadeOut fadeIn">Programming Knowledge</h3>
-            <p id="info1" class="info fadeOut fadeIn">I started learning to code in 2019. I am more than capable of designing when I need to, but
-                I specialize in Object Oriented coding languages. I particularly enjoy working with Javascript, though I'm hoping to continuously expand
-                my repetoir with more languages!<br><br><br>
-                <span>Languages I Know:</span> <span class="languages">HTML</span>, <span class="languages">CSS</span>, 
-                <span class="languages">Javascript</span>, <span class="languages">Java</span>
-            </p>
-            <!--Deals with my education level-->
-            <p id="info2" class="info fadeOut fadeIn">
-                I'm currently in high school and additionally attending a seperate CTE school in order to pursue coding further. I have 4.67 GPA and I plan to graduate in 2023, and after high school, I hope to pursue a bachelor's degree in computer science.
-            </p>
-            <!--Deals with my work/volunteer experience-->
-            <p id="info3" class="info fadeOut fadeIn">
-                As of now, I have not had any formal work experience at a full-time job. However, I have been doing volunteer work since
-                2018. I've worked with various organizations over the years to help give back to the community.<br><br><br>
-                If you'd like to see a full list, you can view my <a href="resume.pdf">resume</a> above for more details.
-            </p>
-        </div>
-        <div class="arrow" id="right" onmousedown="changeIndex(1)"></div>
+    <!--Section for the resume-->
+    <section id="resume">
+        <h1>Resume</h1>
+        <p>If you want the full details on my experience, you can view my current resume below. Keep in mind that this resume will be updated, so more may be added at a later date.<br><br>If you'd like to download a PDF, you can do so <a href="resume.pdf" download>here.</a></p>
+        <iframe src="resume.pdf"></iframe>
+        <a href="resume.pdf">
+            Click Here to Access
+            <img src="images/document.svg">
+        </a>
     </section>
-
     <!--Section for the footer-->
     <footer>
         <p>Designed and Programmed by Justin Melore</p>
         <p>Backgrounds provided by <a href="https://www.svgbackgrounds.com/" target="_blank">SVG Backgrounds</a></p>
     </footer>
-    <script src="experiencesScript.js"></script>
 </body>
-</html>

@@ -221,7 +221,7 @@
     background-image: url(images/aboutMeBackground.svg);
     background-size: cover;
     font-size: 1.6vw;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--gray-background);
     transition: color 0.5s;
     box-sizing: border-box;
@@ -306,7 +306,7 @@
     background-image: url(images/aboutMeBackground.svg);
     background-size: cover;
     font-size: 3vw;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--light-green);
     transition: color 0.5s;
     box-sizing: border-box;
@@ -379,7 +379,7 @@
     background-image: url(images/aboutMeBackground.svg);
     background-size: cover;
     font-size: 2vw;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--light-green);
     transition: color 0.5s;
     box-sizing: border-box;
@@ -516,7 +516,7 @@
 /*Contact Info Styling (Desktop)*/
 @media only screen and (orientation: landscape) and (min-width: 1025px) {
   #contactMe {
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--light-green);
     height: 65vh;
     width: auto;
@@ -557,7 +557,7 @@
 /*Contact Info Styling (Portrait)*/
 @media only screen and (max-width: 1024px) and (orientation: portrait) {
   #contactMe {
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--light-green);
     height: auto;
     width: auto;
@@ -593,7 +593,7 @@
 /*Contact Info Styling (Landscape)*/
 @media only screen and (orientation: landscape) and (max-width: 1024px) {
   #contactMe {
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--light-green);
     height: 65vh;
     width: auto;
@@ -635,11 +635,11 @@
     min-height: 80vh;
     width: 100%;
     box-sizing: border-box;
-    background-image: url("images/experiences.svg");
+    background-image: url('images/experiences.svg');
     background-size: 100%;
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--light-blue);
     filter: contrast(130%);
     padding-bottom: 50vh;
@@ -650,7 +650,7 @@
     margin-left: auto;
     margin-right: auto;
     font-size: 4vw;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--orange);
     padding: none;
     text-align: center;
@@ -769,11 +769,11 @@
     height: auto;
     width: 100%;
     box-sizing: border-box;
-    background-image: url("images/experiences.svg");
+    background-image: url('images/experiences.svg');
     background-size: 75%;
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--light-blue);
     filter: contrast(130%);
     padding-bottom: 50vh;
@@ -784,7 +784,7 @@
     margin-left: auto;
     margin-right: auto;
     font-size: 4vh;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--orange);
     padding: none;
     text-align: center;
@@ -897,11 +897,11 @@
     min-height: 80vh;
     width: 100%;
     box-sizing: border-box;
-    background-image: url("images/experiences.svg");
+    background-image: url('images/experiences.svg');
     background-size: 75%;
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--light-blue);
     filter: contrast(130%);
     padding-bottom: 50vh;
@@ -912,7 +912,7 @@
     margin-left: auto;
     margin-right: auto;
     font-size: 4vw;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     color: var(--orange);
     padding: none;
     text-align: center;
@@ -1015,7 +1015,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
   }
 
   #myProjects > h1 {
@@ -1128,7 +1128,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     width: 100%;
     min-height: 80vh;
   }
@@ -1221,7 +1221,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: "Vast Shadow", cursive;
+    font-family: 'Vast Shadow', cursive;
     width: 100%;
   }
 
@@ -1303,6 +1303,112 @@
   }
 }
 
+/*Resume Page Styling (Desktop)*/
+@media only screen and (min-width: 1025px) {
+  #resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Vast Shadow', cursive;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    min-height: 100vh;
+  }
+
+  #resume h1 {
+    font-size: 4vw;
+    color: var(--orange);
+    margin-bottom: 2vh;
+  }
+
+  #resume p {
+    color: var(--light-green);
+    font-size: 1.5vw;
+    margin-bottom: 5vh;
+  }
+
+  #resume iframe {
+    width: 80vw;
+    height: 100vh;
+    margin-bottom: 5vh;
+    border: none;
+  }
+
+  #resume > a {
+    display: none;
+  }
+}
+
+/*Resume Page Styling (Portrait Version)*/
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+  #resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Vast Shadow', cursive;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    height: 80vh;
+  }
+
+  #resume h1 {
+    font-size: 4vh;
+    color: var(--orange);
+    margin-bottom: 2vh;
+  }
+
+  #resume p {
+    color: var(--light-green);
+    font-size: 1.5vh;
+    margin-bottom: 5vh;
+  }
+
+  #resume iframe {
+    display: none;
+  }
+
+  #resume > a {
+    display: block;
+    font-size: 3vh;
+    text-align: center;
+  }
+}
+
+/*Resume Styling (Mobile Landscape Version)*/
+@media only screen and (orientation: landscape) and (max-width: 1024px) {
+  #resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Vast Shadow', cursive;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    height: 100vh;
+  }
+
+  #resume h1 {
+    font-size: 4vw;
+    color: var(--orange);
+    margin-bottom: 2vh;
+  }
+
+  #resume p {
+    color: var(--light-green);
+    font-size: 1.5vw;
+    margin-bottom: 5vh;
+  }
+
+  #resume iframe {
+    display: none;
+  }
+
+  #resume > a {
+    display: block;
+    font-size: 2vw;
+    text-align: center;
+  }
+}
+
 /*Temporary Page Styling*/
 #temporaryBody {
   background-image: url(images/temporary.svg);
@@ -1322,7 +1428,7 @@
   align-items: center;
   justify-content: center;
   color: var(--light-green);
-  font-family: "Vast Shadow", cursive;
+  font-family: 'Vast Shadow', cursive;
   background-color: var(--gray-background);
   border: 0.5vw solid var(--light-green);
   border-radius: 1vw;
