@@ -16,9 +16,6 @@ document.getElementById("info3").classList.toggle("fadeIn");
 let changePadding = () => {
     let experiences = document.getElementById("experiences");
     let currentInfo = document.getElementById(infoList[currentIndex]);
-    // console.log(`Experiences Padding: ${window.getComputedStyle(experiences).getPropertyValue("padding-bottom").replace("px","")}
-    // Current Info Size: ${currentInfo.offsetHeight}`);
-    // console.log(window.getComputedStyle(experiences).getPropertyValue("padding-bottom").replace("px","") < currentInfo.offsetHeight+"px");
     if(window.getComputedStyle(experiences).getPropertyValue("padding-bottom").replace("px","") < currentInfo.offsetHeight+"px") {
         experiences.style.paddingBottom = (currentInfo.offsetHeight+20)+"px";
     }else{
