@@ -3,6 +3,9 @@ Homepage for mobile portrait view: https://wireframe.cc/TxWv0I
 Homepage for mobile landscape view: https://wireframe.cc/hl6Mgu
 Projects Page for desktop/mobile landscape display (almost the same): https://wireframe.cc/dWMg30
 Projects Page for mobile portrait view: https://wireframe.cc/nMKIR1
+Resume Page for desktop display: https://wireframe.cc/RwdErh
+Resume Page for mobile portrait display: https://wireframe.cc/qcjC5F
+Resume Page for mobile landscape display: https://wireframe.cc/tqxAL0
 IMPORTANT: THE HOMEPAGE HAS BEEN SPLIT UP INTO SEPERATE PAGES. THE LAYOUTS OF THE SECTIONS OF THE HOMEPAGE ARE THE SAME, THEY'RE JUST ON THEY'RE OWN PAGES NOW
 FOR SVG ICONS: https://www.visiwig.com/icons/
 FOR SVG BACKGROUNDS: https://www.svgbackgrounds.com/
